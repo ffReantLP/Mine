@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra-arenas",
+  "version": "${version}",
+  "name": "Elytra Arenas",
+  "description": "Strictly disables Elytra use inside configured arena cuboids.",
+  "authors": ["ffReantLP"],
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.ffreantlp.elytraarenas.ElytraArenasMod"]
+  },
+  "mixins": ["elytra-arenas.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
